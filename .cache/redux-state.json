@@ -1,0 +1,3083 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/carrickm/my-blog-starter/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/carrickm/my-blog-starter/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "dc70e3a1220b9e2c36b7e39204ca603a",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/carrickm/my-blog-starter/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/carrickm/my-blog-starter/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "e787701ef0cea9628629e0c4a9967041",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/carrickm/my-blog-starter/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/carrickm/my-blog-starter/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "9972d60a8b683459082d44478892058c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/carrickm/my-blog-starter/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/carrickm/my-blog-starter/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "cfc33c391f3cc68ff5d2c8f9c87e82db",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/carrickm/my-blog-starter/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/carrickm/my-blog-starter/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "e36253d8043968392f7910a3e3e960b4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/Users/carrickm/my-blog-starter/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/carrickm/my-blog-starter/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c20619e61cbb03249f75ef68f5e70645",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/carrickm/my-blog-starter/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/carrickm/my-blog-starter/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "2fc908a60ea3e212ba23ba5d811c5743",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fcb9e12-7649-5929-9364-94bbf2a81329": {
+      "resolve": "/Users/carrickm/my-blog-starter/node_modules/gatsby-source-filesystem",
+      "id": "1fcb9e12-7649-5929-9364-94bbf2a81329",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.28",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/carrickm/my-blog-starter/content/blog",
+        "name": "blog"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/carrickm/my-blog-starter/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.28",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "4c8fe8e117a099d92a531ffc74873aec",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "8aaaadf4-4811-55f4-ba70-0dbdfd612552": {
+      "resolve": "/Users/carrickm/my-blog-starter/node_modules/gatsby-source-filesystem",
+      "id": "8aaaadf4-4811-55f4-ba70-0dbdfd612552",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.28",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/carrickm/my-blog-starter/content/assets",
+        "name": "assets"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/carrickm/my-blog-starter/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.28",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "6e9f0f197c3970ab09b79162a4e075e4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84ce5432-7d83-5486-88eb-d021448dbbf6": {
+      "resolve": "/Users/carrickm/my-blog-starter/node_modules/gatsby-transformer-remark",
+      "id": "84ce5432-7d83-5486-88eb-d021448dbbf6",
+      "name": "gatsby-transformer-remark",
+      "version": "2.3.8",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/carrickm/my-blog-starter/node_modules/gatsby-remark-images",
+            "id": "4a359a36-fef3-5c49-a0f9-45c24a5fd434",
+            "name": "gatsby-remark-images",
+            "version": "2.0.6",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 590,
+              "wrapperStyle": "",
+              "backgroundColor": "white",
+              "linkImagesToOriginal": true,
+              "showCaptions": false,
+              "pathPrefix": "",
+              "withWebp": false
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/carrickm/my-blog-starter/node_modules/gatsby-remark-images"
+          },
+          {
+            "resolve": "/Users/carrickm/my-blog-starter/node_modules/gatsby-remark-responsive-iframe",
+            "id": "1a3d9dbf-c3c7-50dc-9f59-97f0cf8bb163",
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "2.1.1",
+            "pluginOptions": {
+              "plugins": [],
+              "wrapperStyle": "margin-bottom: 1.0725rem"
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/carrickm/my-blog-starter/node_modules/gatsby-remark-responsive-iframe"
+          },
+          {
+            "resolve": "/Users/carrickm/my-blog-starter/node_modules/gatsby-remark-prismjs",
+            "id": "b8d3a2f5-5540-5699-b862-153e57b2c618",
+            "name": "gatsby-remark-prismjs",
+            "version": "3.2.6",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/carrickm/my-blog-starter/node_modules/gatsby-remark-prismjs"
+          },
+          {
+            "resolve": "/Users/carrickm/my-blog-starter/node_modules/gatsby-remark-copy-linked-files",
+            "id": "80533a5b-ad2d-50ff-af51-726674869458",
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "2.0.11",
+            "pluginOptions": {
+              "plugins": [],
+              "ignoreFileExtensions": [
+                "png",
+                "jpg",
+                "jpeg",
+                "bmp",
+                "tiff"
+              ]
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/carrickm/my-blog-starter/node_modules/gatsby-remark-copy-linked-files"
+          },
+          {
+            "resolve": "/Users/carrickm/my-blog-starter/node_modules/gatsby-remark-smartypants",
+            "id": "90305615-131b-5991-a708-2c2d1c43d946",
+            "name": "gatsby-remark-smartypants",
+            "version": "2.0.9",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/carrickm/my-blog-starter/node_modules/gatsby-remark-smartypants"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/carrickm/my-blog-starter/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.3.8",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-to-string",
+            "version": "^1.0.5"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.5"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.88"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c66f64a4929beab5eda6398af2a0fad6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "4a359a36-fef3-5c49-a0f9-45c24a5fd434": {
+      "resolve": "/Users/carrickm/my-blog-starter/node_modules/gatsby-remark-images",
+      "id": "4a359a36-fef3-5c49-a0f9-45c24a5fd434",
+      "name": "gatsby-remark-images",
+      "version": "2.0.6",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 590,
+        "wrapperStyle": "",
+        "backgroundColor": "white",
+        "linkImagesToOriginal": true,
+        "showCaptions": false,
+        "pathPrefix": "",
+        "withWebp": false
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/carrickm/my-blog-starter/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "2.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit-parents",
+            "version": "^2.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.5"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "470e20ffa520811e49a1b881034f8baf",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1a3d9dbf-c3c7-50dc-9f59-97f0cf8bb163": {
+      "resolve": "/Users/carrickm/my-blog-starter/node_modules/gatsby-remark-responsive-iframe",
+      "id": "1a3d9dbf-c3c7-50dc-9f59-97f0cf8bb163",
+      "name": "gatsby-remark-responsive-iframe",
+      "version": "2.1.1",
+      "pluginOptions": {
+        "plugins": [],
+        "wrapperStyle": "margin-bottom: 1.0725rem"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/carrickm/my-blog-starter/node_modules/gatsby-remark-responsive-iframe",
+      "packageJson": {
+        "name": "gatsby-remark-responsive-iframe",
+        "description": "Make iframes in Markdown processed by Remark responsive",
+        "version": "2.1.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "unist-util-find",
+            "version": "^1.0.1"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "492e333901977d85bedaf43f22edefe7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "b8d3a2f5-5540-5699-b862-153e57b2c618": {
+      "resolve": "/Users/carrickm/my-blog-starter/node_modules/gatsby-remark-prismjs",
+      "id": "b8d3a2f5-5540-5699-b862-153e57b2c618",
+      "name": "gatsby-remark-prismjs",
+      "version": "3.2.6",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/carrickm/my-blog-starter/node_modules/gatsby-remark-prismjs",
+      "packageJson": {
+        "name": "gatsby-remark-prismjs",
+        "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
+        "version": "3.2.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "parse-numeric-range",
+            "version": "^0.0.2"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "13fb6dde601ac92c8b5e8c3866879d8c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "80533a5b-ad2d-50ff-af51-726674869458": {
+      "resolve": "/Users/carrickm/my-blog-starter/node_modules/gatsby-remark-copy-linked-files",
+      "id": "80533a5b-ad2d-50ff-af51-726674869458",
+      "name": "gatsby-remark-copy-linked-files",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": [],
+        "ignoreFileExtensions": [
+          "png",
+          "jpg",
+          "jpeg",
+          "bmp",
+          "tiff"
+        ]
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/carrickm/my-blog-starter/node_modules/gatsby-remark-copy-linked-files",
+      "packageJson": {
+        "name": "gatsby-remark-copy-linked-files",
+        "description": "Find files which are linked to from markdown and copy them to the public directory",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "path-is-inside",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "bbdd4ff8c13c5e9ecedddeaefd77711e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "90305615-131b-5991-a708-2c2d1c43d946": {
+      "resolve": "/Users/carrickm/my-blog-starter/node_modules/gatsby-remark-smartypants",
+      "id": "90305615-131b-5991-a708-2c2d1c43d946",
+      "name": "gatsby-remark-smartypants",
+      "version": "2.0.9",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/carrickm/my-blog-starter/node_modules/gatsby-remark-smartypants",
+      "packageJson": {
+        "name": "gatsby-remark-smartypants",
+        "description": "Use retext-smartypants to auto-enhance typography of markdown",
+        "version": "2.0.9",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "smartypants"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "retext",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-smartypants",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "89b7bbff31ae4d9bec2c358cb78d8701",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/Users/carrickm/my-blog-starter/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.17",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/carrickm/my-blog-starter/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.17",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "e03d130b20849aca15a1de0bdf4c54b8",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/Users/carrickm/my-blog-starter/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.32",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/carrickm/my-blog-starter/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.32",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          },
+          {
+            "name": "svgo",
+            "version": "^1.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c65ce8e9dcab6ff11c9e98285593dda6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "624c196c-30dd-59e4-bcdd-a6f980c0396f": {
+      "resolve": "/Users/carrickm/my-blog-starter/node_modules/gatsby-plugin-google-analytics",
+      "id": "624c196c-30dd-59e4-bcdd-a6f980c0396f",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "2.0.18",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/carrickm/my-blog-starter/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "2.0.18",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "9d3cfbc0e6c1d93e786e77c745f86729",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "e1a9b6ff-843f-5a8b-b9fa-7ab223df58a2": {
+      "resolve": "/Users/carrickm/my-blog-starter/node_modules/gatsby-plugin-feed",
+      "id": "e1a9b6ff-843f-5a8b-b9fa-7ab223df58a2",
+      "name": "gatsby-plugin-feed",
+      "version": "2.1.0",
+      "pluginOptions": {},
+      "nodeAPIs": [
+        "onPreBootstrap",
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/carrickm/my-blog-starter/node_modules/gatsby-plugin-feed",
+      "packageJson": {
+        "name": "gatsby-plugin-feed",
+        "description": "Creates an RSS feed for your Gatsby site.",
+        "version": "2.1.0",
+        "main": "index.js",
+        "keywords": [
+          "atom",
+          "feed",
+          "gatsby",
+          "gatsby-plugin",
+          "rss"
+        ],
+        "author": {
+          "name": "Nicholas Young",
+          "email": "nicholas@nicholaswyoung.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "lodash.merge",
+            "version": "^4.6.0"
+          },
+          {
+            "name": "rss",
+            "version": "^1.2.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "1b144839121f71e9d440f5d2850a1716",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "dee44986-459d-5a9c-bea6-1de7842285fd": {
+      "resolve": "/Users/carrickm/my-blog-starter/node_modules/gatsby-plugin-manifest",
+      "id": "dee44986-459d-5a9c-bea6-1de7842285fd",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.26",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "Gatsby Starter Blog",
+        "short_name": "GatsbyJS",
+        "start_url": "/",
+        "background_color": "#ffffff",
+        "theme_color": "#663399",
+        "display": "minimal-ui",
+        "icon": "content/assets/gatsby-icon.png"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/carrickm/my-blog-starter/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.26",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.15"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "640921530738bbca2abe7eb1b0175aa8",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "63e5f7ff-e5f1-58f7-8e2c-55872ac42281": {
+      "resolve": "/Users/carrickm/my-blog-starter/node_modules/gatsby-plugin-offline",
+      "id": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "name": "gatsby-plugin-offline",
+      "version": "2.0.25",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker",
+        "onServiceWorkerActive",
+        "onPostPrefetchPathname"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/carrickm/my-blog-starter/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "2.0.25",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "idb-keyval",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "workbox-build",
+            "version": "^3.6.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cpx",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.100"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "2435f5ea23a6bcb4b7b9a4342ad95bf0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/Users/carrickm/my-blog-starter/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/carrickm/my-blog-starter/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "2bab3266039690e67bdfc72814e19ae0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "64059fc2-eafe-53ab-a542-ad6d70a5c7ff": {
+      "resolve": "/Users/carrickm/my-blog-starter/node_modules/gatsby-plugin-typography",
+      "id": "64059fc2-eafe-53ab-a542-ad6d70a5c7ff",
+      "name": "gatsby-plugin-typography",
+      "version": "2.2.10",
+      "pluginOptions": {
+        "plugins": [],
+        "pathToConfigModule": "src/utils/typography"
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [
+        "onRenderBody",
+        "onPreRenderHTML"
+      ],
+      "pluginFilepath": "/Users/carrickm/my-blog-starter/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "2.2.10",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.18"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.18"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1 || ^1.0.0-alpha.0"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0 || ^1.0.0-alpha.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "a1acb278260d39b02fd5dcf87d72e33f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/carrickm/my-blog-starter",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "f42538605f44e24f5afc146630b341da",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onCreateNode"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/carrickm/my-blog-starter",
+      "packageJson": {
+        "name": "gatsby-starter-blog",
+        "description": "A starter for a blog powered by Gatsby and Markdown",
+        "version": "0.1.0",
+        "main": "n/a",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.3.5"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.37"
+          },
+          {
+            "name": "gatsby-plugin-feed",
+            "version": "^2.1.0"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^2.0.18"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.26"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.25"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.11"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.32"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^2.2.10"
+          },
+          {
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "^2.0.11"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^2.0.6"
+          },
+          {
+            "name": "gatsby-remark-prismjs",
+            "version": "^3.2.6"
+          },
+          {
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "gatsby-remark-smartypants",
+            "version": "^2.0.9"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.28"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.3.8"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.17"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.16.0"
+          },
+          {
+            "name": "react",
+            "version": "^16.8.6"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.8.6"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.19"
+          },
+          {
+            "name": "typeface-merriweather",
+            "version": "0.0.72"
+          },
+          {
+            "name": "typeface-montserrat",
+            "version": "0.0.54"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.19"
+          },
+          {
+            "name": "typography-theme-wordpress-2016",
+            "version": "^0.16.19"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "prettier",
+            "version": "^1.16.4"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "be15596f7b6be78802d698e4df25ea1c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d8d159f7-981b-5806-b1af-ad503a52ae59": {
+      "resolve": "/Users/carrickm/my-blog-starter/node_modules/gatsby-plugin-page-creator",
+      "id": "d8d159f7-981b-5806-b1af-ad503a52ae59",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.12",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/carrickm/my-blog-starter/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/carrickm/my-blog-starter/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.12",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "a436ec410d46a941c5c9f40b1f712ccc",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "CodeBuild Demo blog",
+        "author": "Matt Carrick",
+        "description": "A starter blog demonstrating what Gatsby can do.",
+        "siteUrl": "https://gatsby-starter-blog-demo.netlify.com/",
+        "social": {
+          "twitter": "kylemathews"
+        }
+      },
+      "port": 8000,
+      "host": "localhost",
+      "buildTime": "2019-04-03T17:09:03.673Z",
+      "id": "Site",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "7f9e9e9871431778686536bc7379bb0f",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "ab469bfd-f300-5e28-989e-b22bf7cb6497": {
+      "id": "ab469bfd-f300-5e28-989e-b22bf7cb6497",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d5fef92aa670e5df2e3173aacd2a0878",
+        "type": "Directory",
+        "description": "Directory \"content/blog\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/carrickm/my-blog-starter/content/blog",
+      "relativePath": "",
+      "extension": "",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2019-04-03T17:08:17.909Z",
+      "accessTime": "2019-04-03T17:09:07.755Z",
+      "changeTime": "2019-04-03T17:08:17.909Z",
+      "birthTime": "2019-04-03T17:08:17.906Z",
+      "root": "/",
+      "dir": "/Users/carrickm/my-blog-starter/content",
+      "base": "blog",
+      "ext": "",
+      "name": "blog",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 819523782,
+      "gid": 1896053708,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 1472913,
+      "blocks": 0,
+      "atimeMs": 1554311347754.834,
+      "mtimeMs": 1554311297908.7322,
+      "ctimeMs": 1554311297908.7322,
+      "birthtimeMs": 1554311297905.8655,
+      "atime": "2019-04-03T17:09:07.755Z",
+      "mtime": "2019-04-03T17:08:17.909Z",
+      "ctime": "2019-04-03T17:08:17.909Z",
+      "birthtime": "2019-04-03T17:08:17.906Z"
+    },
+    "41eb9d53-cf96-5d87-963f-cd454ddfb578": {
+      "id": "41eb9d53-cf96-5d87-963f-cd454ddfb578",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "c9536f6b19872dd300bad268a66e1355",
+        "type": "Directory",
+        "description": "Directory \"content/blog/hello-world\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/carrickm/my-blog-starter/content/blog/hello-world",
+      "relativePath": "hello-world",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2019-04-03T17:08:17.906Z",
+      "accessTime": "2019-04-03T17:09:07.759Z",
+      "changeTime": "2019-04-03T17:08:17.906Z",
+      "birthTime": "2019-04-03T17:08:17.906Z",
+      "root": "/",
+      "dir": "/Users/carrickm/my-blog-starter/content/blog",
+      "base": "hello-world",
+      "ext": "",
+      "name": "hello-world",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 819523782,
+      "gid": 1896053708,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 1472914,
+      "blocks": 0,
+      "atimeMs": 1554311347758.5127,
+      "mtimeMs": 1554311297906.201,
+      "ctimeMs": 1554311297906.201,
+      "birthtimeMs": 1554311297905.9263,
+      "atime": "2019-04-03T17:09:07.759Z",
+      "mtime": "2019-04-03T17:08:17.906Z",
+      "ctime": "2019-04-03T17:08:17.906Z",
+      "birthtime": "2019-04-03T17:08:17.906Z"
+    },
+    "669eabe8-20d4-55f6-a024-868946497e12": {
+      "id": "669eabe8-20d4-55f6-a024-868946497e12",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "ae3569315b95f576584cc51879d2bc3c",
+        "type": "Directory",
+        "description": "Directory \"content/blog/hi-folks\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/carrickm/my-blog-starter/content/blog/hi-folks",
+      "relativePath": "hi-folks",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-04-03T17:08:17.909Z",
+      "accessTime": "2019-04-03T17:09:07.759Z",
+      "changeTime": "2019-04-03T17:08:17.909Z",
+      "birthTime": "2019-04-03T17:08:17.908Z",
+      "root": "/",
+      "dir": "/Users/carrickm/my-blog-starter/content/blog",
+      "base": "hi-folks",
+      "ext": "",
+      "name": "hi-folks",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 819523782,
+      "gid": 1896053708,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 1472917,
+      "blocks": 0,
+      "atimeMs": 1554311347758.553,
+      "mtimeMs": 1554311297908.532,
+      "ctimeMs": 1554311297908.532,
+      "birthtimeMs": 1554311297908.449,
+      "atime": "2019-04-03T17:09:07.759Z",
+      "mtime": "2019-04-03T17:08:17.909Z",
+      "ctime": "2019-04-03T17:08:17.909Z",
+      "birthtime": "2019-04-03T17:08:17.908Z"
+    },
+    "b4da8bc4-99c8-5a8d-a686-7feed957ef3e": {
+      "id": "b4da8bc4-99c8-5a8d-a686-7feed957ef3e",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "e638564c1dd57888595527def493d350",
+        "type": "Directory",
+        "description": "Directory \"content/blog/my-second-post\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/carrickm/my-blog-starter/content/blog/my-second-post",
+      "relativePath": "my-second-post",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-04-03T17:08:17.909Z",
+      "accessTime": "2019-04-03T17:09:07.759Z",
+      "changeTime": "2019-04-03T17:08:17.909Z",
+      "birthTime": "2019-04-03T17:08:17.909Z",
+      "root": "/",
+      "dir": "/Users/carrickm/my-blog-starter/content/blog",
+      "base": "my-second-post",
+      "ext": "",
+      "name": "my-second-post",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 819523782,
+      "gid": 1896053708,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 1472919,
+      "blocks": 0,
+      "atimeMs": 1554311347758.5315,
+      "mtimeMs": 1554311297908.805,
+      "ctimeMs": 1554311297908.805,
+      "birthtimeMs": 1554311297908.7268,
+      "atime": "2019-04-03T17:09:07.759Z",
+      "mtime": "2019-04-03T17:08:17.909Z",
+      "ctime": "2019-04-03T17:08:17.909Z",
+      "birthtime": "2019-04-03T17:08:17.909Z"
+    },
+    "179e7334-612c-53c9-a5ba-a3fa81747c38": {
+      "id": "179e7334-612c-53c9-a5ba-a3fa81747c38",
+      "children": [
+        "0e65c6d9-8206-54b4-8f19-363f311e3d0d"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "61be41001aabd7c88c3cb5f43a1d6402",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/hello-world/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/carrickm/my-blog-starter/content/blog/hello-world/index.md",
+      "relativePath": "hello-world/index.md",
+      "extension": "md",
+      "size": 857,
+      "prettySize": "857 B",
+      "modifiedTime": "2019-04-03T17:08:17.906Z",
+      "accessTime": "2019-04-03T17:08:54.639Z",
+      "changeTime": "2019-04-03T17:08:17.906Z",
+      "birthTime": "2019-04-03T17:08:17.906Z",
+      "root": "/",
+      "dir": "/Users/carrickm/my-blog-starter/content/blog/hello-world",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "hello-world",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 819523782,
+      "gid": 1896053708,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 1472915,
+      "blocks": 8,
+      "atimeMs": 1554311334639.2454,
+      "mtimeMs": 1554311297906.1274,
+      "ctimeMs": 1554311297906.1274,
+      "birthtimeMs": 1554311297906.0127,
+      "atime": "2019-04-03T17:08:54.639Z",
+      "mtime": "2019-04-03T17:08:17.906Z",
+      "ctime": "2019-04-03T17:08:17.906Z",
+      "birthtime": "2019-04-03T17:08:17.906Z"
+    },
+    "d5c1b11c-92ff-5bbf-9ed6-4b8db00ec8ec": {
+      "id": "d5c1b11c-92ff-5bbf-9ed6-4b8db00ec8ec",
+      "children": [
+        "a9bae133-ef62-5055-a4bc-460b3452c7b5"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "f717290bdf9850facd9406bed12bba4c",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/my-second-post/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/carrickm/my-blog-starter/content/blog/my-second-post/index.md",
+      "relativePath": "my-second-post/index.md",
+      "extension": "md",
+      "size": 378,
+      "prettySize": "378 B",
+      "modifiedTime": "2019-04-03T17:08:17.909Z",
+      "accessTime": "2019-04-03T17:08:54.640Z",
+      "changeTime": "2019-04-03T17:08:17.909Z",
+      "birthTime": "2019-04-03T17:08:17.909Z",
+      "root": "/",
+      "dir": "/Users/carrickm/my-blog-starter/content/blog/my-second-post",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "my-second-post",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 819523782,
+      "gid": 1896053708,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 1472920,
+      "blocks": 8,
+      "atimeMs": 1554311334639.527,
+      "mtimeMs": 1554311297908.9048,
+      "ctimeMs": 1554311297908.9048,
+      "birthtimeMs": 1554311297908.7957,
+      "atime": "2019-04-03T17:08:54.640Z",
+      "mtime": "2019-04-03T17:08:17.909Z",
+      "ctime": "2019-04-03T17:08:17.909Z",
+      "birthtime": "2019-04-03T17:08:17.909Z"
+    },
+    "8ac963cb-5a06-5ed8-bdeb-bc64d6fdbb7b": {
+      "id": "8ac963cb-5a06-5ed8-bdeb-bc64d6fdbb7b",
+      "children": [
+        "5b6f3400-4f90-523b-a2e0-3edf9bda0715"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4224d45788fa1ec80aa0bec4bf9f315c",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/hi-folks/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/carrickm/my-blog-starter/content/blog/hi-folks/index.md",
+      "relativePath": "hi-folks/index.md",
+      "extension": "md",
+      "size": 5629,
+      "prettySize": "5.63 kB",
+      "modifiedTime": "2019-04-03T17:08:17.909Z",
+      "accessTime": "2019-04-03T17:08:54.639Z",
+      "changeTime": "2019-04-03T17:08:17.909Z",
+      "birthTime": "2019-04-03T17:08:17.909Z",
+      "root": "/",
+      "dir": "/Users/carrickm/my-blog-starter/content/blog/hi-folks",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "hi-folks",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 819523782,
+      "gid": 1896053708,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 1472918,
+      "blocks": 16,
+      "atimeMs": 1554311334639.4275,
+      "mtimeMs": 1554311297908.6765,
+      "ctimeMs": 1554311297908.6765,
+      "birthtimeMs": 1554311297908.5242,
+      "atime": "2019-04-03T17:08:54.639Z",
+      "mtime": "2019-04-03T17:08:17.909Z",
+      "ctime": "2019-04-03T17:08:17.909Z",
+      "birthtime": "2019-04-03T17:08:17.909Z"
+    },
+    "0e65c6d9-8206-54b4-8f19-363f311e3d0d": {
+      "id": "0e65c6d9-8206-54b4-8f19-363f311e3d0d",
+      "children": [],
+      "parent": "179e7334-612c-53c9-a5ba-a3fa81747c38",
+      "internal": {
+        "content": "\nThis is my first post on my new fake blog! How exciting!\n\nI'm sure I'll write a lot more interesting things in the future.\n\nOh, and here's a great quote from this Wikipedia on\n[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).\n\n> A salted duck egg is a Chinese preserved food product made by soaking duck\n> eggs in brine, or packing each egg in damp, salted charcoal. In Asian\n> supermarkets, these eggs are sometimes sold covered in a thick layer of salted\n> charcoal paste. The eggs may also be sold with the salted paste removed,\n> wrapped in plastic, and vacuum packed. From the salt curing process, the\n> salted duck eggs have a briny aroma, a gelatin-like egg white and a\n> firm-textured, round yolk that is bright orange-red in color.\n\n![Chinese Salty Egg](./salty_egg.jpg)\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "a3e3081c88c79f2b147314ba0a416649",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Hello World",
+        "date": "2015-05-01T22:12:03.284Z"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nThis is my first post on my new fake blog! How exciting!\n\nI'm sure I'll write a lot more interesting things in the future.\n\nOh, and here's a great quote from this Wikipedia on\n[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).\n\n> A salted duck egg is a Chinese preserved food product made by soaking duck\n> eggs in brine, or packing each egg in damp, salted charcoal. In Asian\n> supermarkets, these eggs are sometimes sold covered in a thick layer of salted\n> charcoal paste. The eggs may also be sold with the salted paste removed,\n> wrapped in plastic, and vacuum packed. From the salt curing process, the\n> salted duck eggs have a briny aroma, a gelatin-like egg white and a\n> firm-textured, round yolk that is bright orange-red in color.\n\n![Chinese Salty Egg](./salty_egg.jpg)\n",
+      "fileAbsolutePath": "/Users/carrickm/my-blog-starter/content/blog/hello-world/index.md",
+      "fields": {
+        "slug": "/hello-world/"
+      }
+    },
+    "a9bae133-ef62-5055-a4bc-460b3452c7b5": {
+      "id": "a9bae133-ef62-5055-a4bc-460b3452c7b5",
+      "children": [],
+      "parent": "d5c1b11c-92ff-5bbf-9ed6-4b8db00ec8ec",
+      "internal": {
+        "content": "\nWow! I love blogging so much already.\n\nDid you know that \"despite its name, salted duck eggs can also be made from\nchicken eggs, though the taste and texture will be somewhat different, and the\negg yolk will be less rich.\"?\n([Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg))\n\nYeah, I didn't either.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "7fd5661f0d004fc924f005526f488fe4",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "My Second Post!",
+        "date": "2015-05-06T23:46:37.121Z"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nWow! I love blogging so much already.\n\nDid you know that \"despite its name, salted duck eggs can also be made from\nchicken eggs, though the taste and texture will be somewhat different, and the\negg yolk will be less rich.\"?\n([Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg))\n\nYeah, I didn't either.\n",
+      "fileAbsolutePath": "/Users/carrickm/my-blog-starter/content/blog/my-second-post/index.md",
+      "fields": {
+        "slug": "/my-second-post/"
+      }
+    },
+    "5b6f3400-4f90-523b-a2e0-3edf9bda0715": {
+      "id": "5b6f3400-4f90-523b-a2e0-3edf9bda0715",
+      "children": [],
+      "parent": "8ac963cb-5a06-5ed8-bdeb-bc64d6fdbb7b",
+      "internal": {
+        "content": "\nFar far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts. Separated they live in Bookmarksgrove\nright at the coast of the Semantics, a large language ocean. A small river named\nDuden flows by their place and supplies it with the necessary regelialia.\n\n## On deer horse aboard tritely yikes and much\n\nThe Big Oxmox advised her not to do so, because there were thousands of bad\nCommas, wild Question Marks and devious Semikoli, but the Little Blind Text\ndidn’t listen. She packed her seven versalia, put her initial into the belt and\nmade herself on the way.\n\n- This however showed weasel\n- Well uncritical so misled\n  - this is very interesting\n- Goodness much until that fluid owl\n\nWhen she reached the first hills of the **Italic Mountains**, she had a last\nview back on the skyline of her hometown _Bookmarksgrove_, the headline of\n[Alphabet Village](http://google.com) and the subline of her own road, the Line\nLane. Pityful a rethoric question ran over her cheek, then she continued her\nway. On her way she met a copy.\n\n### Overlaid the jeepers uselessly much excluding\n\nBut nothing the copy said could convince her and so it didn’t take long until a\nfew insidious Copy Writers ambushed her, made her drunk with\n[Longe and Parole](http://google.com) and dragged her into their agency, where\nthey abused her for their projects again and again. And if she hasn’t been\nrewritten, then they are still using her.\n\n> Far far away, behind the word mountains, far from the countries Vokalia and\n> Consonantia, there live the blind texts. Separated they live in Bookmarksgrove\n> right at the coast of the Semantics, a large language ocean.\n\nIt is a paradisematic country, in which roasted parts of sentences fly into your\nmouth. Even the all-powerful Pointing has no control about the blind texts it is\nan almost unorthographic life One day however a small line of blind text by the\nname of Lorem Ipsum decided to leave for the far World of Grammar.\n\n### According a funnily until pre-set or arrogant well cheerful\n\nThe Big Oxmox advised her not to do so, because there were thousands of bad\nCommas, wild Question Marks and devious Semikoli, but the Little Blind Text\ndidn’t listen. She packed her seven versalia, put her initial into the belt and\nmade herself on the way.\n\n1.  So baboon this\n2.  Mounted militant weasel gregariously admonishingly straightly hey\n3.  Dear foresaw hungry and much some overhung\n4.  Rash opossum less because less some amid besides yikes jeepers frenetic\n    impassive fruitlessly shut\n\nWhen she reached the first hills of the Italic Mountains, she had a last view\nback on the skyline of her hometown Bookmarksgrove, the headline of Alphabet\nVillage and the subline of her own road, the Line Lane. Pityful a rethoric\nquestion ran over her cheek, then she continued her way. On her way she met a\ncopy.\n\n> The copy warned the Little Blind Text, that where it came from it would have\n> been rewritten a thousand times and everything that was left from its origin\n> would be the word \"and\" and the Little Blind Text should turn around and\n> return to its own, safe country.\n\nBut nothing the copy said could convince her and so it didn’t take long until a\nfew insidious Copy Writers ambushed her, made her drunk with Longe and Parole\nand dragged her into their agency, where they abused her for their projects\nagain and again. And if she hasn’t been rewritten, then they are still using\nher. Far far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts.\n\n#### Silent delightfully including because before one up barring chameleon\n\nSeparated they live in Bookmarksgrove right at the coast of the Semantics, a\nlarge language ocean. A small river named Duden flows by their place and\nsupplies it with the necessary regelialia. It is a paradisematic country, in\nwhich roasted parts of sentences fly into your mouth.\n\nEven the all-powerful Pointing has no control about the blind texts it is an\nalmost unorthographic life One day however a small line of blind text by the\nname of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox\nadvised her not to do so, because there were thousands of bad Commas, wild\nQuestion Marks and devious Semikoli, but the Little Blind Text didn’t listen.\n\n##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along\n\nShe packed her seven versalia, put her initial into the belt and made herself on\nthe way. When she reached the first hills of the Italic Mountains, she had a\nlast view back on the skyline of her hometown Bookmarksgrove, the headline of\nAlphabet Village and the subline of her own road, the Line Lane. Pityful a\nrethoric question ran over her cheek, then she continued her way. On her way she\nmet a copy.\n\n###### Slapped cozy a that lightheartedly and far\n\nThe copy warned the Little Blind Text, that where it came from it would have\nbeen rewritten a thousand times and everything that was left from its origin\nwould be the word \"and\" and the Little Blind Text should turn around and return\nto its own, safe country. But nothing the copy said could convince her and so it\ndidn’t take long until a few insidious Copy Writers ambushed her, made her drunk\nwith Longe and Parole and dragged her into their agency, where they abused her\nfor their projects again and again.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "35d29dd788e19c733cb456571f2cf6bd",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "New Beginnings",
+        "date": "2015-05-28T22:40:32.169Z",
+        "description": "This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter."
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nFar far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts. Separated they live in Bookmarksgrove\nright at the coast of the Semantics, a large language ocean. A small river named\nDuden flows by their place and supplies it with the necessary regelialia.\n\n## On deer horse aboard tritely yikes and much\n\nThe Big Oxmox advised her not to do so, because there were thousands of bad\nCommas, wild Question Marks and devious Semikoli, but the Little Blind Text\ndidn’t listen. She packed her seven versalia, put her initial into the belt and\nmade herself on the way.\n\n- This however showed weasel\n- Well uncritical so misled\n  - this is very interesting\n- Goodness much until that fluid owl\n\nWhen she reached the first hills of the **Italic Mountains**, she had a last\nview back on the skyline of her hometown _Bookmarksgrove_, the headline of\n[Alphabet Village](http://google.com) and the subline of her own road, the Line\nLane. Pityful a rethoric question ran over her cheek, then she continued her\nway. On her way she met a copy.\n\n### Overlaid the jeepers uselessly much excluding\n\nBut nothing the copy said could convince her and so it didn’t take long until a\nfew insidious Copy Writers ambushed her, made her drunk with\n[Longe and Parole](http://google.com) and dragged her into their agency, where\nthey abused her for their projects again and again. And if she hasn’t been\nrewritten, then they are still using her.\n\n> Far far away, behind the word mountains, far from the countries Vokalia and\n> Consonantia, there live the blind texts. Separated they live in Bookmarksgrove\n> right at the coast of the Semantics, a large language ocean.\n\nIt is a paradisematic country, in which roasted parts of sentences fly into your\nmouth. Even the all-powerful Pointing has no control about the blind texts it is\nan almost unorthographic life One day however a small line of blind text by the\nname of Lorem Ipsum decided to leave for the far World of Grammar.\n\n### According a funnily until pre-set or arrogant well cheerful\n\nThe Big Oxmox advised her not to do so, because there were thousands of bad\nCommas, wild Question Marks and devious Semikoli, but the Little Blind Text\ndidn’t listen. She packed her seven versalia, put her initial into the belt and\nmade herself on the way.\n\n1.  So baboon this\n2.  Mounted militant weasel gregariously admonishingly straightly hey\n3.  Dear foresaw hungry and much some overhung\n4.  Rash opossum less because less some amid besides yikes jeepers frenetic\n    impassive fruitlessly shut\n\nWhen she reached the first hills of the Italic Mountains, she had a last view\nback on the skyline of her hometown Bookmarksgrove, the headline of Alphabet\nVillage and the subline of her own road, the Line Lane. Pityful a rethoric\nquestion ran over her cheek, then she continued her way. On her way she met a\ncopy.\n\n> The copy warned the Little Blind Text, that where it came from it would have\n> been rewritten a thousand times and everything that was left from its origin\n> would be the word \"and\" and the Little Blind Text should turn around and\n> return to its own, safe country.\n\nBut nothing the copy said could convince her and so it didn’t take long until a\nfew insidious Copy Writers ambushed her, made her drunk with Longe and Parole\nand dragged her into their agency, where they abused her for their projects\nagain and again. And if she hasn’t been rewritten, then they are still using\nher. Far far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts.\n\n#### Silent delightfully including because before one up barring chameleon\n\nSeparated they live in Bookmarksgrove right at the coast of the Semantics, a\nlarge language ocean. A small river named Duden flows by their place and\nsupplies it with the necessary regelialia. It is a paradisematic country, in\nwhich roasted parts of sentences fly into your mouth.\n\nEven the all-powerful Pointing has no control about the blind texts it is an\nalmost unorthographic life One day however a small line of blind text by the\nname of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox\nadvised her not to do so, because there were thousands of bad Commas, wild\nQuestion Marks and devious Semikoli, but the Little Blind Text didn’t listen.\n\n##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along\n\nShe packed her seven versalia, put her initial into the belt and made herself on\nthe way. When she reached the first hills of the Italic Mountains, she had a\nlast view back on the skyline of her hometown Bookmarksgrove, the headline of\nAlphabet Village and the subline of her own road, the Line Lane. Pityful a\nrethoric question ran over her cheek, then she continued her way. On her way she\nmet a copy.\n\n###### Slapped cozy a that lightheartedly and far\n\nThe copy warned the Little Blind Text, that where it came from it would have\nbeen rewritten a thousand times and everything that was left from its origin\nwould be the word \"and\" and the Little Blind Text should turn around and return\nto its own, safe country. But nothing the copy said could convince her and so it\ndidn’t take long until a few insidious Copy Writers ambushed her, made her drunk\nwith Longe and Parole and dragged her into their agency, where they abused her\nfor their projects again and again.\n",
+      "fileAbsolutePath": "/Users/carrickm/my-blog-starter/content/blog/hi-folks/index.md",
+      "fields": {
+        "slug": "/hi-folks/"
+      }
+    },
+    "442b317a-5394-5f48-9d3e-35a132f33ea4": {
+      "id": "442b317a-5394-5f48-9d3e-35a132f33ea4",
+      "children": [
+        "d3abf185-3dd4-5893-8d23-bca763379813"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"content/blog/hello-world/salty_egg.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/carrickm/my-blog-starter/content/blog/hello-world/salty_egg.jpg",
+      "relativePath": "hello-world/salty_egg.jpg",
+      "extension": "jpg",
+      "size": 684322,
+      "prettySize": "684 kB",
+      "modifiedTime": "2019-04-03T17:08:17.908Z",
+      "accessTime": "2019-04-03T17:08:54.639Z",
+      "changeTime": "2019-04-03T17:08:17.908Z",
+      "birthTime": "2019-04-03T17:08:17.906Z",
+      "root": "/",
+      "dir": "/Users/carrickm/my-blog-starter/content/blog/hello-world",
+      "base": "salty_egg.jpg",
+      "ext": ".jpg",
+      "name": "salty_egg",
+      "relativeDirectory": "hello-world",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 819523782,
+      "gid": 1896053708,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 1472916,
+      "blocks": 1344,
+      "atimeMs": 1554311334639.3264,
+      "mtimeMs": 1554311297908.395,
+      "ctimeMs": 1554311297908.395,
+      "birthtimeMs": 1554311297906.1953,
+      "atime": "2019-04-03T17:08:54.639Z",
+      "mtime": "2019-04-03T17:08:17.908Z",
+      "ctime": "2019-04-03T17:08:17.908Z",
+      "birthtime": "2019-04-03T17:08:17.906Z"
+    },
+    "d3abf185-3dd4-5893-8d23-bca763379813": {
+      "id": "d3abf185-3dd4-5893-8d23-bca763379813",
+      "children": [],
+      "parent": "442b317a-5394-5f48-9d3e-35a132f33ea4",
+      "internal": {
+        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "9eac3bbc-4029-5a0a-88d8-b5810b70d16a": {
+      "id": "9eac3bbc-4029-5a0a-88d8-b5810b70d16a",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "943e3960f266d469cb6b811b1297f9c2",
+        "type": "Directory",
+        "description": "Directory \"content/assets\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/Users/carrickm/my-blog-starter/content/assets",
+      "relativePath": "",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2019-04-03T17:08:17.906Z",
+      "accessTime": "2019-04-03T17:09:07.811Z",
+      "changeTime": "2019-04-03T17:08:17.906Z",
+      "birthTime": "2019-04-03T17:08:17.905Z",
+      "root": "/",
+      "dir": "/Users/carrickm/my-blog-starter/content",
+      "base": "assets",
+      "ext": "",
+      "name": "assets",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 819523782,
+      "gid": 1896053708,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 1472910,
+      "blocks": 0,
+      "atimeMs": 1554311347811.3796,
+      "mtimeMs": 1554311297905.6213,
+      "ctimeMs": 1554311297905.6213,
+      "birthtimeMs": 1554311297905.2412,
+      "atime": "2019-04-03T17:09:07.811Z",
+      "mtime": "2019-04-03T17:08:17.906Z",
+      "ctime": "2019-04-03T17:08:17.906Z",
+      "birthtime": "2019-04-03T17:08:17.905Z"
+    },
+    "51ed1c8a-dcab-551d-9259-56fe64a4b5dc": {
+      "id": "51ed1c8a-dcab-551d-9259-56fe64a4b5dc",
+      "children": [
+        "8d3ab7e9-be86-5a80-b40c-b8566954c472"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/assets/gatsby-icon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/Users/carrickm/my-blog-starter/content/assets/gatsby-icon.png",
+      "relativePath": "gatsby-icon.png",
+      "extension": "png",
+      "size": 21212,
+      "prettySize": "21.2 kB",
+      "modifiedTime": "2019-04-03T17:08:17.906Z",
+      "accessTime": "2019-04-03T17:08:54.639Z",
+      "changeTime": "2019-04-03T17:08:17.906Z",
+      "birthTime": "2019-04-03T17:08:17.905Z",
+      "root": "/",
+      "dir": "/Users/carrickm/my-blog-starter/content/assets",
+      "base": "gatsby-icon.png",
+      "ext": ".png",
+      "name": "gatsby-icon",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 819523782,
+      "gid": 1896053708,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 1472911,
+      "blocks": 48,
+      "atimeMs": 1554311334639.1287,
+      "mtimeMs": 1554311297905.5269,
+      "ctimeMs": 1554311297905.5269,
+      "birthtimeMs": 1554311297905.317,
+      "atime": "2019-04-03T17:08:54.639Z",
+      "mtime": "2019-04-03T17:08:17.906Z",
+      "ctime": "2019-04-03T17:08:17.906Z",
+      "birthtime": "2019-04-03T17:08:17.905Z"
+    },
+    "d88e3880-5e17-5182-84a6-cb9e186719c3": {
+      "id": "d88e3880-5e17-5182-84a6-cb9e186719c3",
+      "children": [
+        "06baacf6-84e1-593e-9fde-38c4a3fc5cbc"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4f27694bd7811d13157e5e488ad64f43",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"content/assets/profile-pic.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/Users/carrickm/my-blog-starter/content/assets/profile-pic.jpg",
+      "relativePath": "profile-pic.jpg",
+      "extension": "jpg",
+      "size": 21714,
+      "prettySize": "21.7 kB",
+      "modifiedTime": "2019-04-03T17:08:17.906Z",
+      "accessTime": "2019-04-03T17:08:54.639Z",
+      "changeTime": "2019-04-03T17:08:17.906Z",
+      "birthTime": "2019-04-03T17:08:17.906Z",
+      "root": "/",
+      "dir": "/Users/carrickm/my-blog-starter/content/assets",
+      "base": "profile-pic.jpg",
+      "ext": ".jpg",
+      "name": "profile-pic",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 819523782,
+      "gid": 1896053708,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 1472912,
+      "blocks": 48,
+      "atimeMs": 1554311334639.1711,
+      "mtimeMs": 1554311297905.8213,
+      "ctimeMs": 1554311297905.8213,
+      "birthtimeMs": 1554311297905.6113,
+      "atime": "2019-04-03T17:08:54.639Z",
+      "mtime": "2019-04-03T17:08:17.906Z",
+      "ctime": "2019-04-03T17:08:17.906Z",
+      "birthtime": "2019-04-03T17:08:17.906Z"
+    },
+    "8d3ab7e9-be86-5a80-b40c-b8566954c472": {
+      "id": "8d3ab7e9-be86-5a80-b40c-b8566954c472",
+      "children": [],
+      "parent": "51ed1c8a-dcab-551d-9259-56fe64a4b5dc",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "06baacf6-84e1-593e-9fde-38c4a3fc5cbc": {
+      "id": "06baacf6-84e1-593e-9fde-38c4a3fc5cbc",
+      "children": [],
+      "parent": "d88e3880-5e17-5182-84a6-cb9e186719c3",
+      "internal": {
+        "contentDigest": "4f27694bd7811d13157e5e488ad64f43",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /hi-folks/": {
+      "jsonName": "hi-folks-a2b",
+      "internalComponentName": "ComponentHiFolks",
+      "path": "/hi-folks/",
+      "component": "/Users/carrickm/my-blog-starter/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "/hi-folks/",
+        "previous": {
+          "fields": {
+            "slug": "/my-second-post/"
+          },
+          "frontmatter": {
+            "title": "My Second Post!"
+          }
+        },
+        "next": null
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/carrickm/my-blog-starter/src/templates/blog-post.js",
+      "id": "SitePage /hi-folks/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "1fcc0432facd7749e96e4b000f4ac523",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /my-second-post/": {
+      "jsonName": "my-second-post-2aa",
+      "internalComponentName": "ComponentMySecondPost",
+      "path": "/my-second-post/",
+      "component": "/Users/carrickm/my-blog-starter/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "/my-second-post/",
+        "previous": {
+          "fields": {
+            "slug": "/hello-world/"
+          },
+          "frontmatter": {
+            "title": "Hello World"
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/hi-folks/"
+          },
+          "frontmatter": {
+            "title": "New Beginnings"
+          }
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/carrickm/my-blog-starter/src/templates/blog-post.js",
+      "id": "SitePage /my-second-post/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "77c577fd48314ebec91f315b21761433",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /hello-world/": {
+      "jsonName": "hello-world-8bc",
+      "internalComponentName": "ComponentHelloWorld",
+      "path": "/hello-world/",
+      "component": "/Users/carrickm/my-blog-starter/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "/hello-world/",
+        "previous": null,
+        "next": {
+          "fields": {
+            "slug": "/my-second-post/"
+          },
+          "frontmatter": {
+            "title": "My Second Post!"
+          }
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/carrickm/my-blog-starter/src/templates/blog-post.js",
+      "id": "SitePage /hello-world/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "16d1d096ff441b24dd6cbcac744ec30f",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/carrickm/my-blog-starter/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "d8d159f7-981b-5806-b1af-ad503a52ae59",
+      "pluginCreatorId": "d8d159f7-981b-5806-b1af-ad503a52ae59",
+      "componentPath": "/Users/carrickm/my-blog-starter/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e06dd68ae20832263dd2470cc6d3a338",
+        "description": "d8d159f7-981b-5806-b1af-ad503a52ae59",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/carrickm/my-blog-starter/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "d8d159f7-981b-5806-b1af-ad503a52ae59",
+      "pluginCreatorId": "d8d159f7-981b-5806-b1af-ad503a52ae59",
+      "componentPath": "/Users/carrickm/my-blog-starter/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b3d1f2f2712f852defb2f2265a4ee91b",
+        "description": "d8d159f7-981b-5806-b1af-ad503a52ae59",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/carrickm/my-blog-starter/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/Users/carrickm/my-blog-starter/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "37021fb927810f3fd0c06a0b70ae5220",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "4b10898fccb967f13c3ef0ccc9349414"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "sq--src-components-bio-js",
+        "sq--src-components-seo-js",
+        "/hi-folks/",
+        "/my-second-post/",
+        "/hello-world/",
+        "/404/",
+        "/",
+        "/404.html"
+      ],
+      "d88e3880-5e17-5182-84a6-cb9e186719c3": [
+        "sq--src-components-bio-js"
+      ],
+      "06baacf6-84e1-593e-9fde-38c4a3fc5cbc": [
+        "sq--src-components-bio-js"
+      ],
+      "5b6f3400-4f90-523b-a2e0-3edf9bda0715": [
+        "/hi-folks/"
+      ],
+      "a9bae133-ef62-5055-a4bc-460b3452c7b5": [
+        "/my-second-post/"
+      ],
+      "0e65c6d9-8206-54b4-8f19-363f311e3d0d": [
+        "/hello-world/"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        "/"
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "sq--src-components-seo-js": 2417117884,
+    "hi-folks-a2b": "394/path---hi-folks-a-2-b-1cc-vLABD0BQeKxM2rA3l0fY64izjLE",
+    "my-second-post-2aa": "194/path---my-second-post-2-aa-e94-HtDnDTZZDqOmBEmrLw75cfbzMmQ",
+    "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "404-22d": "575/path---404-22-d-bce-QjDUxeL3tGaXzzzsoEKfngte0U",
+    "sq--src-components-bio-js": 4007731267,
+    "404-html-516": "709/path---404-html-516-62a-QjDUxeL3tGaXzzzsoEKfngte0U",
+    "hello-world-8bc": "500/path---hello-world-8-bc-b62-2GIv1HkHq66Wsb8EOxdAnuCwQ",
+    "index": "672/path---index-6a9-XuCi4j4FIou6Z0XjNbeul8Fw"
+  },
+  "components": {
+    "/Users/carrickm/my-blog-starter/src/templates/blog-post.js": {
+      "query": "query BlogPostBySlug(\n  $slug: String!\n) {\n  site {\n    siteMetadata {\n      title\n      author\n    }\n  }\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    id\n    excerpt(pruneLength: 160)\n    html\n    frontmatter {\n      title\n      date(formatString: \"MMMM DD, YYYY\")\n      description\n    }\n  }\n}\n",
+      "componentPath": "/Users/carrickm/my-blog-starter/src/templates/blog-post.js",
+      "pages": [
+        "/hi-folks/",
+        "/my-second-post/",
+        "/hello-world/"
+      ],
+      "isInBootstrap": false
+    },
+    "/Users/carrickm/my-blog-starter/.cache/dev-404-page.js": {
+      "componentPath": "/Users/carrickm/my-blog-starter/.cache/dev-404-page.js",
+      "query": "",
+      "pages": [
+        "/dev-404-page/"
+      ],
+      "isInBootstrap": true
+    },
+    "/Users/carrickm/my-blog-starter/src/pages/404.js": {
+      "componentPath": "/Users/carrickm/my-blog-starter/src/pages/404.js",
+      "query": "query usersCarrickmMyBlogStarterSrcPages404Js1097489062 {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "pages": [
+        "/404/",
+        "/404.html"
+      ],
+      "isInBootstrap": true
+    },
+    "/Users/carrickm/my-blog-starter/src/pages/index.js": {
+      "componentPath": "/Users/carrickm/my-blog-starter/src/pages/index.js",
+      "query": "query usersCarrickmMyBlogStarterSrcPagesIndexJs2785444898 {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n  allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {\n    edges {\n      node {\n        excerpt\n        fields {\n          slug\n        }\n        frontmatter {\n          date(formatString: \"MMMM DD, YYYY\")\n          title\n          description\n        }\n      }\n    }\n  }\n}\n",
+      "pages": [
+        "/"
+      ],
+      "isInBootstrap": true
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-bio-js": {
+      "name": "BioQuery",
+      "componentPath": "/Users/carrickm/my-blog-starter/src/components/bio.js",
+      "id": "sq--src-components-bio-js",
+      "jsonName": "sq--src-components-bio-js",
+      "query": "query BioQuery {\n  avatar: file(absolutePath: {regex: \"/profile-pic.jpg/\"}) {\n    childImageSharp {\n      fixed(width: 50, height: 50) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  site {\n    siteMetadata {\n      author\n      social {\n        twitter\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed on ImageSharpFixed {\n  base64\n  width\n  height\n  src\n  srcSet\n}\n",
+      "hash": 4007731267
+    },
+    "sq--src-components-seo-js": {
+      "name": "usersCarrickmMyBlogStarterSrcComponentsSeoJs2417117884",
+      "componentPath": "/Users/carrickm/my-blog-starter/src/components/seo.js",
+      "id": "sq--src-components-seo-js",
+      "jsonName": "sq--src-components-seo-js",
+      "query": "query usersCarrickmMyBlogStarterSrcComponentsSeoJs2417117884 {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 2417117884
+    }
+  }
+}
